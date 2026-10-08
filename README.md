@@ -1,6 +1,6 @@
 # FC Hegelmann rungtynių kalendorius
 
-Eksperimentinė viešo `fchegelmann.com/tvarkarastis/` tvarkaraščio prenumerata. Skriptas kasdien atsisiunčia svetainės puslapius ir sugeneruoja `calendar.ics`. Pirmasis paleidimas būtinas norint patikrinti, ar svetainės HTML struktūra atitinka parsavimo logiką.
+Eksperimentinė viešo `fchegelmann.com/tvarkarastis/` tvarkaraščio prenumerata. Skriptas kasdien atsisiunčia svetainės puslapius ir sugeneruoja `calendar.ics`, įtraukdamas tik FC Hegelmann, B komandos ir FCH akademijos namų rungtynes. Pirmasis paleidimas būtinas norint patikrinti, ar svetainės HTML struktūra atitinka parsavimo logiką.
 
 1. Įkelkite `sync.py`, `requirements.txt`, `README.md` ir `.github/workflows/sync.yml` į viešą GitHub repo, išsaugodami aplankus.
 2. GitHub skiltyje **Actions > Update public football calendar > Run workflow** paleiskite procesą rankiniu būdu.

@@ -117,7 +117,7 @@ def main():
     now = datetime.now(TZ)
     unique = {}
     for e in all_entries:
-        if e['when'] >= now - timedelta(hours=2):
+        if TEAM.search(e['home']) and e['when'] >= now - timedelta(hours=2):
             key=(e['home'],e['away'],e['when'].isoformat(),e['competition'])
             unique[key]=e
     # Fail closed; never wipe existing calendar on a bad fetch.
