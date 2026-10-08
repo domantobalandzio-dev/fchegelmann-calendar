@@ -2,6 +2,12 @@
 name: Update public football calendar
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - sync.py
+      - requirements.txt
+      - .github/workflows/sync.yml
   workflow_dispatch:
   schedule:
     - cron: "15 5 * * *"
